@@ -19,7 +19,7 @@ module.exports = {
         .addChoice('C Programming', 'cp')
         .addChoice('LIfeskill', 'ls')
         .addChoice('Professional Communication', 'pc'))
-		.addStringOption(option => option.setName('resourcetype').setDescription('Select resource type')
+		.addStringOption(option => option.setName('resourcetype').setDescription('Select resource type').setRequired(true)
         .addChoice('Question Paper', 'qp')
         .addChoice('Important Question', 'iq')
         .addChoice('Notes', 'notes')
